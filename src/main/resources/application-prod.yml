@@ -6,10 +6,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mariadb://${rds.hostname}:${rds.port}/${rds.db.name}?allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://aws-v4-rds.cjqkwogi6o49.ap-northeast-2.rds.amazonaws.com:3306/testdb?allowPublicKeyRetrieval=true&useSSL=false
     driver-class-name: org.mariadb.jdbc.Driver
-    username: ${rds.username}
-    password: ${rds.password}
+    username: ht
+    password: 11111111
 
   jpa:
     open-in-view: true
